@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/soyeon/CLionProjects/start/baekjoon/2178.cpp
+cstdio
+-
+string.h
+-
+algorithm
+-
+queue
+-
+iostream
+-
+
