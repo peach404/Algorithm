@@ -25,6 +25,7 @@ int main() {
             }
         }
         printf("%d\n",d[a][b]);
+
         memset(d,0,sizeof(d));
     }
     return 0;
