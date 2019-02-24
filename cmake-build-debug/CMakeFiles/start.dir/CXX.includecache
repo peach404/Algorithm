@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/9465.cpp
+/Users/soyeon/CLionProjects/start/baekjoon/11048.cpp
 queue
 -
 vector
@@ -16,5 +16,7 @@ cstdio
 iostream
 -
 string.h
+-
+algorithm
 -
 
