@@ -11,7 +11,7 @@
 using namespace std;
 
 int palace[51][51][4];
-int visited[51][51];
+int visited[51][51][2];
 int n,m;
 int bx[4]={0,-1,0,1};
 int by[4]={-1,0,1,0};
@@ -31,10 +31,10 @@ int bfs(int x,int y){
                 int nx = qx + bx[i];
                 int ny = qy + by[i];
 
-                if(nx >=0 && ny >= 0 && nx <n && ny<m && visited[nx][ny]==-1){
+                if(nx >=0 && ny >= 0 && nx <n && ny<m && visited[nx][ny][0]==-1){
                   //  printf("%d %d\n",nx,ny);
                     q.push({nx,ny});
-                    visited[qx][qy]=0;
+                    visited[qx][qy][0]=0;
                     roomsize++;
                 }
             }
@@ -76,7 +76,7 @@ int main() {
     int cnt=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            if(visited[i][j]==-1){
+            if(visited[i][j][0]==-1){
 
                 rsize= bfs(i,j);
                 if(rsize>0) {
@@ -91,8 +91,7 @@ int main() {
 
         }
     }
-    printf("cnt: %d\n maxsize: %d\n",cnt,maxsize+1);
-
+    printf("cnt: %d\nmaxsize: %d\n",cnt,maxsize+1);
 
     return 0;
 }
