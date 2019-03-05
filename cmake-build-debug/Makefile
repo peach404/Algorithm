@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-baekjoon/5622.o: baekjoon/5622.cpp.o
+SWExpert/2819.o: SWExpert/2819.cpp.o
 
-.PHONY : baekjoon/5622.o
+.PHONY : SWExpert/2819.o
 
 # target to build an object file
-baekjoon/5622.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/5622.cpp.o
-.PHONY : baekjoon/5622.cpp.o
+SWExpert/2819.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SWExpert/2819.cpp.o
+.PHONY : SWExpert/2819.cpp.o
 
-baekjoon/5622.i: baekjoon/5622.cpp.i
+SWExpert/2819.i: SWExpert/2819.cpp.i
 
-.PHONY : baekjoon/5622.i
+.PHONY : SWExpert/2819.i
 
 # target to preprocess a source file
-baekjoon/5622.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/5622.cpp.i
-.PHONY : baekjoon/5622.cpp.i
+SWExpert/2819.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SWExpert/2819.cpp.i
+.PHONY : SWExpert/2819.cpp.i
 
-baekjoon/5622.s: baekjoon/5622.cpp.s
+SWExpert/2819.s: SWExpert/2819.cpp.s
 
-.PHONY : baekjoon/5622.s
+.PHONY : SWExpert/2819.s
 
 # target to generate assembly for a file
-baekjoon/5622.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/5622.cpp.s
-.PHONY : baekjoon/5622.cpp.s
+SWExpert/2819.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SWExpert/2819.cpp.s
+.PHONY : SWExpert/2819.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... baekjoon/5622.o"
-	@echo "... baekjoon/5622.i"
-	@echo "... baekjoon/5622.s"
+	@echo "... SWExpert/2819.o"
+	@echo "... SWExpert/2819.i"
+	@echo "... SWExpert/2819.s"
 .PHONY : help
 
 
