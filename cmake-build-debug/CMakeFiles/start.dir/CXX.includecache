@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/16234.cpp
-math.h
+/Users/soyeon/CLionProjects/start/baekjoon/15685.cpp
+queue
 -
 vector
 -
-queue
+stack
 -
 cstdio
 -
