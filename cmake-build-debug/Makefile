@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-baekjoon/15685.o: baekjoon/15685.cpp.o
+baekjoon/14500.o: baekjoon/14500.cpp.o
 
-.PHONY : baekjoon/15685.o
+.PHONY : baekjoon/14500.o
 
 # target to build an object file
-baekjoon/15685.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/15685.cpp.o
-.PHONY : baekjoon/15685.cpp.o
+baekjoon/14500.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/14500.cpp.o
+.PHONY : baekjoon/14500.cpp.o
 
-baekjoon/15685.i: baekjoon/15685.cpp.i
+baekjoon/14500.i: baekjoon/14500.cpp.i
 
-.PHONY : baekjoon/15685.i
+.PHONY : baekjoon/14500.i
 
 # target to preprocess a source file
-baekjoon/15685.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/15685.cpp.i
-.PHONY : baekjoon/15685.cpp.i
+baekjoon/14500.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/14500.cpp.i
+.PHONY : baekjoon/14500.cpp.i
 
-baekjoon/15685.s: baekjoon/15685.cpp.s
+baekjoon/14500.s: baekjoon/14500.cpp.s
 
-.PHONY : baekjoon/15685.s
+.PHONY : baekjoon/14500.s
 
 # target to generate assembly for a file
-baekjoon/15685.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/15685.cpp.s
-.PHONY : baekjoon/15685.cpp.s
+baekjoon/14500.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/14500.cpp.s
+.PHONY : baekjoon/14500.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... baekjoon/15685.o"
-	@echo "... baekjoon/15685.i"
-	@echo "... baekjoon/15685.s"
+	@echo "... baekjoon/14500.o"
+	@echo "... baekjoon/14500.i"
+	@echo "... baekjoon/14500.s"
 .PHONY : help
 
 
