@@ -6,16 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/14891.cpp
-queue
--
+/Users/soyeon/CLionProjects/start/baekjoon/15683.cpp
 vector
--
-stack
 -
 cstdio
 -
 iostream
+-
+queue
+-
+stdio.h
 -
 string.h
 -
