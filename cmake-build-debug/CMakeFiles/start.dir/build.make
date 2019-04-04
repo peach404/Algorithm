@@ -57,27 +57,27 @@ include CMakeFiles/start.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/start.dir/flags.make
 
-CMakeFiles/start.dir/baekjoon/15683.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/baekjoon/15683.cpp.o: ../baekjoon/15683.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/baekjoon/15683.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/baekjoon/15683.cpp.o -c /Users/soyeon/CLionProjects/start/baekjoon/15683.cpp
+CMakeFiles/start.dir/SWExpert/1954.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/SWExpert/1954.cpp.o: ../SWExpert/1954.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/SWExpert/1954.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/SWExpert/1954.cpp.o -c /Users/soyeon/CLionProjects/start/SWExpert/1954.cpp
 
-CMakeFiles/start.dir/baekjoon/15683.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/baekjoon/15683.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/baekjoon/15683.cpp > CMakeFiles/start.dir/baekjoon/15683.cpp.i
+CMakeFiles/start.dir/SWExpert/1954.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/SWExpert/1954.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/SWExpert/1954.cpp > CMakeFiles/start.dir/SWExpert/1954.cpp.i
 
-CMakeFiles/start.dir/baekjoon/15683.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/baekjoon/15683.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/baekjoon/15683.cpp -o CMakeFiles/start.dir/baekjoon/15683.cpp.s
+CMakeFiles/start.dir/SWExpert/1954.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/SWExpert/1954.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/SWExpert/1954.cpp -o CMakeFiles/start.dir/SWExpert/1954.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/baekjoon/15683.cpp.o"
+"CMakeFiles/start.dir/SWExpert/1954.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
-start: CMakeFiles/start.dir/baekjoon/15683.cpp.o
+start: CMakeFiles/start.dir/SWExpert/1954.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"
