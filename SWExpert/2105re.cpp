@@ -18,10 +18,11 @@ int by[4]={0,1,2,1};
 int bx[4]={0,-1,0,1};
 
 int maxv=0;
-void rightfun(int ay,int ax,set <int> sArray,int cnt){
+void rightfun(int ay,int ax,set <int> sArray,int cnt,int line){
     if(ay<0 || ax<0 || ay>=n || ax>=n || ay-1<0 || ax+1>=n){
         return;
     }
+
     sArray.insert(map[ay][ax]);
     sArray.insert(map[ay-1][ax+1]);
     if(sArray.size() == cnt+2){
@@ -62,6 +63,11 @@ void leftfun(int ay,int ax,set <int> sArray,int cnt){
 
 }
 
+void nemo(int y,int x){
+
+
+
+}
 
 void dfs(int y,int x){
     set <int> sArray;

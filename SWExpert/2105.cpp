@@ -13,121 +13,67 @@
 using namespace std;
 int n;
 int map[21][21];
-bool visited[21][21];
-int lefty[1]={1};
-int leftx[1]={-1};
+int check[101];
+int visited[21][21];
+int cnt;
+int ans;
+int py,px;
+void go(int y,int x,int flag){
+    cnt++;
+    check[map[y][x]]+=1;
+    visited[y][x]+=1;
 
-int righty[1]={1};
-int rightx[1]={1};
-
-int upy[1]={-1};
-int upx[1]={1};
-
-int rightupy[1]={-1};
-int rightupx[1]={-1};
-
-struct Cafe{
-    int y;
-    int x;
-    set <int> sArray;
-    int cnt;
-};
-
-Cafe cafe[101];
-int maxv=0;
-
-void dfs(int y,int x,int cafe_size,int flag){
-
-    for(auto item=cafe[cafe_size].sArray.begin();item != cafe[cafe_size].sArray.end();item++){
-        cout << *item << '\t';
-    }
-    printf("\n");
-
-    flag =flag %4;
-
-    if(y == cafe[cafe_size].y && x == cafe[cafe_size].x){
-
-        //같으면
-        if(cafe[cafe_size].cnt == cafe[cafe_size].sArray.size()){
-            if(maxv<cafe[cafe_size].cnt){
-                maxv = cafe[cafe_size].cnt;
-                cafe_size++;
+    if(flag==4 && visited[y][x]==2){
+        if(ans<cnt-1){
+            ans = cnt-1;
+        }
+    }else{
+        if(flag == 0){
+            if(!check[map[y+1][x+1]] && map[y][x]!=0) {
+                go(y + 1, x + 1, 1);
             }
-        }
-        return;
-
-    }
-
-    int ny=0, nx=0;
-    if(flag==0){
-        ny = y + lefty[0];
-        nx = x + leftx[0];
-
-        if(ny>=0 && nx>=0 && nx<n && ny<n){
-            if(cafe[cafe_size].cnt==0){ //초기값
-                cafe[cafe_size].y = y;
-                cafe[cafe_size].x = x;
-                cafe[cafe_size].sArray.insert(map[y][x]);
+        }else if(flag ==1){
+            if(!check[map[y+1][x+1]] && map[y+1][x+1]!=0) {
+                go(y + 1, x + 1, 1);
             }
-            cafe[cafe_size].sArray.insert(map[ny][nx]);
-            cafe[cafe_size].cnt+=1;
+            if(!check[map[y+1][x-1]] && map[y+1][x-1]!=0) {
+                go(y + 1, x - 1, 2);
+            }
+        }else if(flag ==2){
+            if(!check[map[y+1][x-1]] && map[y+1][x-1]!=0) {
+                go(y + 1, x - 1, 2);
+            }
+            if(!check[map[y-1][x-1]] && map[y-1][x-1]!=0) {
+                go(y - 1, x - 1, 3);
+            }
+        }else if(flag == 3){
+            if(!check[map[y-1][x-1]] && map[y-1][x-1]!=0) {
+                go(y - 1, x - 1, 3);
+            }
+            if(py == y-1 && px ==x+1){
+                go(y-1,x+1,4);
+            }
+            else if(!check[map[y-1][x+1]] && map[y-1][x+1]!=0) {
+                go(y - 1, x + 1, 4);
+            }
+        }else {
+            if(py == y-1 && px ==x+1){
+                go(y-1,x+1,4);
+            }
+            else if(!check[map[y-1][x+1]] && map[y-1][x+1]!=0) {
+                go(y - 1, x + 1, 4);
+            }
 
-            dfs(ny,nx,cafe_size,0);
-            cafe[cafe_size].sArray.erase(map[ny][nx]);
-            cafe[cafe_size].cnt-=1;
-        }else{
-            flag=1;
         }
+
+
     }
-    if(flag==1){
-        ny = y + righty[0];
-        nx = x + rightx[0];
-
-        if(ny>=0 && nx>=0 && nx<n && ny<n) {
-
-            cafe[cafe_size].sArray.insert(map[ny][nx]);
-            cafe[cafe_size].cnt+=1;
-            dfs(ny, nx, cafe_size, 1);
-            cafe[cafe_size].sArray.erase(map[ny][nx]);
-            cafe[cafe_size].cnt-=1;
-
-        }else{
-            flag = 2;
-        }
-    }
-    if(flag==2){
-        ny = y + upy[0];
-        nx = x + upx[0];
-
-        if(ny>=0 && nx>=0 && nx<n && ny<n) {
-
-            cafe[cafe_size].sArray.insert(map[ny][nx]);
-            cafe[cafe_size].cnt+=1;
-            dfs(ny, nx, cafe_size, 2);
-            cafe[cafe_size].sArray.erase(map[ny][nx]);
-            cafe[cafe_size].cnt-=1;
-        }else{
-            flag = 3;
-        }
-    }
-    if(flag==3){
-        ny = y + rightupy[0];
-        nx = x + rightupx[0];
-
-        if(ny>=0 && nx>=0 && nx<n && ny<n) {
-
-            cafe[cafe_size].sArray.insert(map[ny][nx]);
-            cafe[cafe_size].cnt+=1;
-            dfs(ny, nx, cafe_size, 3);
-            cafe[cafe_size].sArray.erase(map[ny][nx]);
-            cafe[cafe_size].cnt-=1;
-
-        }else{
-            flag = 0;
-        }
-    }
+    cnt--;
+    check[map[y][x]]-=1;
+    visited[y][x]-=1;
 
 }
+
 
 int main() {
 
@@ -135,21 +81,29 @@ int main() {
 
     scanf("%d",&T);
 
-    for(int tc=0;tc<T;tc++){
+    for(int tc=0;tc<T;tc++) {
 
 
-        scanf("%d",&n);
+        scanf("%d", &n);
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                scanf("%1d",&map[i][j]);
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                scanf("%d", &map[i][j]);
+            }
+        }
+        memset(check,false,sizeof(check));
+        memset(visited,false,sizeof(visited));
+        ans=-1;
 
-
+        for (int i = 1; i < n; i++) {
+            for (int j = 2; j < n; j++) {
+                py=i;
+                px=j;
+                go(i, j,0);
             }
         }
 
-        dfs(0,1,0,0);
-
+        printf("#%d %d\n",tc+1,ans);
     }
 
     return 0;
