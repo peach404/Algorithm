@@ -48,14 +48,14 @@ void bfs() {
         if (qmode == 0) {
             if (check(qy, qx + 1)) {
                 if (map[qy][qx + 1] == 0 ) {
-                    visited[qy][qx + 1] = true;
+                  //  visited[qy][qx + 1] = true;
                     q.push({ { qy,qx + 1 },0 });
 
                 }
             }
             if (check(qy + 1, qx) && check(qy + 1, qx + 1) && check(qy, qx + 1)) {
                 if (map[qy + 1][qx] == 0 && map[qy + 1][qx + 1] == 0 && map[qy][qx + 1] == 0 ) {
-                    visited[qy + 1][qx + 1] = true;
+                  //  visited[qy + 1][qx + 1] = true;
                     q.push({ { qy + 1,qx + 1 }, 2 });
                 }
             }
@@ -63,13 +63,13 @@ void bfs() {
         else if (qmode == 1) {
             if (check(qy + 1, qx)) {
                 if (map[qy + 1][qx] == 0 ) {
-                    visited[qy + 1][qx] = true;
+                  //  visited[qy + 1][qx] = true;
                     q.push({ {qy + 1,qx},1 });
                 }
             }
             if (check(qy + 1, qx) && check(qy + 1, qx + 1) && check(qy, qx + 1)) {
                 if (map[qy + 1][qx] == 0 && map[qy + 1][qx + 1] == 0 && map[qy][qx + 1] == 0) {
-                    visited[qy + 1][qx + 1] = true;
+              //      visited[qy + 1][qx + 1] = true;
                     q.push({ { qy + 1,qx + 1 }, 2 });
                 }
             }
@@ -77,19 +77,19 @@ void bfs() {
         else if (qmode == 2) {
             if (check(qy, qx + 1)) {
                 if (map[qy][qx + 1] == 0 ) {
-                    visited[qy][qx + 1] = true;
+               //     visited[qy][qx + 1] = true;
                     q.push({ { qy,qx + 1 },0 });
                 }
             }
             if (check(qy + 1, qx)) {
                 if (map[qy + 1][qx] == 0 ) {
-                    visited[qy + 1][qx] = true;
+              //      visited[qy + 1][qx] = true;
                     q.push({ {qy + 1,qx},1 });
                 }
             }
             if (check(qy + 1, qx) && check(qy + 1, qx + 1) && check(qy, qx + 1)) {
                 if (map[qy + 1][qx] == 0 && map[qy + 1][qx + 1] == 0 && map[qy][qx + 1] == 0 ) {
-                    visited[qy + 1][qx + 1] = true;
+               //     visited[qy + 1][qx + 1] = true;
                     q.push({ { qy + 1,qx + 1 }, 2 });
                 }
             }
