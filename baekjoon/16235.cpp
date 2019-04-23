@@ -1,138 +1,125 @@
-//
-// Created by 김소연 on 26/03/2019.
-//
 
-#include <queue>
-#include <vector>
-#include <math.h>
-#include <cstdio>
+
+
 #include <iostream>
 #include <string.h>
+#include <cstdio>
+#include <queue>
+#include <vector>
 #include <algorithm>
 
 using namespace std;
-
-int N, M, K; //땅,나무개수,년도
-int tree_size;
-struct TREE{
-
+int N, M, K;
+int A[15][15];
+int map[15][15];
+struct TREE {
     int y;
     int x;
-    int food;
     int age;
-    bool dead;
-    int howmany;
-
+    int idx;
 };
+vector<TREE> fir;
+queue<TREE> dead;
+queue<TREE> nextyear;
 
-int A[101][101];
+bool operator<(TREE a, TREE b) {
+    return (a.age >= b.age);
+};
 TREE tree[101];
-int map[101][101][101];
 
+int treecnt = 0;
+int by[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
+int bx[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
-int by[8]={-1,-1,-1,0,0,0,1,1};
-int bx[8]={-1,0,1,-1,1,-1,0,1};
+void spring() {
+    if (fir.size()>0) {
+        sort(fir.begin(),fir.end());
+        for(int i=0;i<fir.size();i++) {
+            TREE val = fir[i];
 
-void spring(){
-    for(int i=0;i<=tree_size;i++){
-        if(map[tree[i].y][tree[i].x][0] < tree[i].age){
-            tree[i].dead=true;
+            if (val.age <= map[val.y][val.x]) {
+                map[val.y][val.x] -= val.age;
+                tree[val.idx].age += 1;
+                nextyear.push(tree[val.idx]);
+            } else {
+                dead.push(tree[val.idx]);
 
+            }
         }
+    }
+    fir.clear();
+}
+
+void summer() {
+    while (!dead.empty()) {
+        TREE dead_tree = dead.front();
+        map[dead_tree.y][dead_tree.x] += (dead_tree.age / 2);
+        dead.pop();
     }
 }
 
+void fail() {
 
-void summer(){
+    while (!nextyear.empty()) {
+        TREE tmp= nextyear.front();
+        if (tmp.age % 5 == 0) {
+            for (int j = 0; j < 8; j++) {
+                int ny = by[j] + tmp.y;
+                int nx = bx[j] + tmp.x;
 
-    for(int i=0;i<=tree_size;i++){
-        if(tree[i].dead==true){
-            int val=floor(tree[i].age/2);
-            map[tree[i].y][tree[i].x][0]+=val;
-        }
-    }
-
-
-}
-
-
-void fall(){
-
-    for(int i=0;i<=tree_size;i++){
-        int oldx=0,oldy=0;
-
-        if(tree[i].age %5 ==0){
-            tree[i].y = oldy;
-            tree[i].x = oldx;
-
-            for(int pos=0;pos<8;pos++){
-                int ny = oldy + by[pos];
-                int nx = oldx + bx[pos];
-
-                if(ny<0 || nx<0 || ny>N || nx>N){
+                if (ny <= 0 || nx <= 0 || ny > N || nx > N) {
                     continue;
                 }
 
-                int a = tree_size+1;
-                tree[a].y = ny;
-                tree[a].x = nx;
-                tree[a].age=1;
-                tree[a].food = map[ny][nx][0];
-                int compare=1;
-
-                while(true){
-                    if(map[ny][nx][compare]>0){
-                        compare++;
-                        tree[map[ny][nx][compare]].howmany++;
-
-                    }
-                    else if(map[ny][nx][compare]==0){
-                        map[ny][nx][compare+1]=a; //여기 디버깅
-
-                        break;
-                    }
-                }
-                tree[a].dead=false;
-                tree[a].howmany = compare+1;
+                tree[treecnt].y = ny;
+                tree[treecnt].x = nx;
+                tree[treecnt].age = 1;
+                tree[treecnt].idx = treecnt;
+                fir.push_back(tree[treecnt]);
+                treecnt++;
             }
+            fir.push_back(tree[tmp.idx]);
+        } else {
 
+            fir.push_back(tmp);
         }
+        nextyear.pop();
     }
 }
 
-void winter(){
-
-    for(int i=0;i<N;i++){
-        for(int j=0;j<N;j++){
-            map[i][j][0]+= A[i][j];
+void winter() {
+    for (int i = 1; i <= N; i++) {
+        for (int j = 1; j <= N; j++) {
+            map[i][j] += A[i][j];
         }
     }
-
 }
 
 int main() {
 
     scanf("%d %d %d", &N, &M, &K);
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
-            map[i][j][0]=5;
-            scanf(" %d", &A[i][j]);
+
+    for (int i = 1; i <= N; i++) {
+        for (int j = 1; j <= N; j++) {
+            scanf("%d", &A[i][j]);
+            map[i][j] = 5;
         }
     }
-
-
-    for (int i = 1; i <= M; i++) {
-        int x=0,y=0,z=0;
-        scanf("%d %d %d",&x,&y,&z);
-        tree[i].x = x;
-        tree[i].y = y;
-        tree[i].age = z;
-        tree[i].dead= false;
-        tree[i].food=5;
-        tree[i].howmany=1;
-        tree_size++;
-        map[y][x][1]=i;
+    for (int i = 0; i < M; i++) {
+        scanf("%d %d %d", &tree[i].x, &tree[i].y, &tree[i].age);
+        tree[i].idx = i;
+        fir.push_back(tree[i]);
+        treecnt++;
     }
+
+    while (K--) {
+        spring();
+        summer();
+        fail();
+        winter();
+    }
+    int res=fir.size();
+    printf("%d\n",res );
 
     return 0;
 }
