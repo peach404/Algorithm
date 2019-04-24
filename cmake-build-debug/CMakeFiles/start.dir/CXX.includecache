@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/2167.cpp
-cstdio
+/Users/soyeon/CLionProjects/start/baekjoon/11055.cpp
+stdio.h
 -
 
