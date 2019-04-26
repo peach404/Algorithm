@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/1152.cpp
-string.h
--
+/Users/soyeon/CLionProjects/start/baekjoon/2908.cpp
 cstdio
 -
 iostream
+-
+algorithm
 -
 
