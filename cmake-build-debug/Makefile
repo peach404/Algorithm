@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-baekjoon/2668.o: baekjoon/2668.cpp.o
+SortAlgorithms/QuickSortAlgorithm.o: SortAlgorithms/QuickSortAlgorithm.cpp.o
 
-.PHONY : baekjoon/2668.o
+.PHONY : SortAlgorithms/QuickSortAlgorithm.o
 
 # target to build an object file
-baekjoon/2668.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2668.cpp.o
-.PHONY : baekjoon/2668.cpp.o
+SortAlgorithms/QuickSortAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o
+.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.o
 
-baekjoon/2668.i: baekjoon/2668.cpp.i
+SortAlgorithms/QuickSortAlgorithm.i: SortAlgorithms/QuickSortAlgorithm.cpp.i
 
-.PHONY : baekjoon/2668.i
+.PHONY : SortAlgorithms/QuickSortAlgorithm.i
 
 # target to preprocess a source file
-baekjoon/2668.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2668.cpp.i
-.PHONY : baekjoon/2668.cpp.i
+SortAlgorithms/QuickSortAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.i
+.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.i
 
-baekjoon/2668.s: baekjoon/2668.cpp.s
+SortAlgorithms/QuickSortAlgorithm.s: SortAlgorithms/QuickSortAlgorithm.cpp.s
 
-.PHONY : baekjoon/2668.s
+.PHONY : SortAlgorithms/QuickSortAlgorithm.s
 
 # target to generate assembly for a file
-baekjoon/2668.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2668.cpp.s
-.PHONY : baekjoon/2668.cpp.s
+SortAlgorithms/QuickSortAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.s
+.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... baekjoon/2668.o"
-	@echo "... baekjoon/2668.i"
-	@echo "... baekjoon/2668.s"
+	@echo "... SortAlgorithms/QuickSortAlgorithm.o"
+	@echo "... SortAlgorithms/QuickSortAlgorithm.i"
+	@echo "... SortAlgorithms/QuickSortAlgorithm.s"
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/soyeon/CLionProjects/start/baekjoon/2668.cpp">
+		<Unit filename="/Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp">
 			<Option target="start"/>
 		</Unit>
 		<Unit filename="/Users/soyeon/CLionProjects/start/CMakeLists.txt">

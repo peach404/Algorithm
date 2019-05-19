@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/2668.cpp
-iostream
+/Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp
+vector
 -
 cstdio
 -
-vector
+iostream
 -
 
