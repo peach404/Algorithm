@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-SortAlgorithms/QuickSortAlgorithm.o: SortAlgorithms/QuickSortAlgorithm.cpp.o
+SortAlgorithms/InsertAlgorithm.o: SortAlgorithms/InsertAlgorithm.cpp.o
 
-.PHONY : SortAlgorithms/QuickSortAlgorithm.o
+.PHONY : SortAlgorithms/InsertAlgorithm.o
 
 # target to build an object file
-SortAlgorithms/QuickSortAlgorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o
-.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.o
+SortAlgorithms/InsertAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o
+.PHONY : SortAlgorithms/InsertAlgorithm.cpp.o
 
-SortAlgorithms/QuickSortAlgorithm.i: SortAlgorithms/QuickSortAlgorithm.cpp.i
+SortAlgorithms/InsertAlgorithm.i: SortAlgorithms/InsertAlgorithm.cpp.i
 
-.PHONY : SortAlgorithms/QuickSortAlgorithm.i
+.PHONY : SortAlgorithms/InsertAlgorithm.i
 
 # target to preprocess a source file
-SortAlgorithms/QuickSortAlgorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.i
-.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.i
+SortAlgorithms/InsertAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.i
+.PHONY : SortAlgorithms/InsertAlgorithm.cpp.i
 
-SortAlgorithms/QuickSortAlgorithm.s: SortAlgorithms/QuickSortAlgorithm.cpp.s
+SortAlgorithms/InsertAlgorithm.s: SortAlgorithms/InsertAlgorithm.cpp.s
 
-.PHONY : SortAlgorithms/QuickSortAlgorithm.s
+.PHONY : SortAlgorithms/InsertAlgorithm.s
 
 # target to generate assembly for a file
-SortAlgorithms/QuickSortAlgorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.s
-.PHONY : SortAlgorithms/QuickSortAlgorithm.cpp.s
+SortAlgorithms/InsertAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.s
+.PHONY : SortAlgorithms/InsertAlgorithm.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... SortAlgorithms/QuickSortAlgorithm.o"
-	@echo "... SortAlgorithms/QuickSortAlgorithm.i"
-	@echo "... SortAlgorithms/QuickSortAlgorithm.s"
+	@echo "... SortAlgorithms/InsertAlgorithm.o"
+	@echo "... SortAlgorithms/InsertAlgorithm.i"
+	@echo "... SortAlgorithms/InsertAlgorithm.s"
 .PHONY : help
 
 

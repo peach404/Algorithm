@@ -3,4 +3,4 @@ project(start)
 
 set(CMAKE_CXX_STANDARD 14)
 ##여기 바꿔
-add_executable(start SortAlgorithms/QuickSortAlgorithm.cpp)
+add_executable(start SortAlgorithms/InsertAlgorithm.cpp)

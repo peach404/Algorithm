@@ -57,27 +57,27 @@ include CMakeFiles/start.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/start.dir/flags.make
 
-CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o: ../SortAlgorithms/QuickSortAlgorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o -c /Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp
+CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o: ../SortAlgorithms/InsertAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o -c /Users/soyeon/CLionProjects/start/SortAlgorithms/InsertAlgorithm.cpp
 
-CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp > CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.i
+CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/SortAlgorithms/InsertAlgorithm.cpp > CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.i
 
-CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp -o CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.s
+CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/SortAlgorithms/InsertAlgorithm.cpp -o CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o"
+"CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
-start: CMakeFiles/start.dir/SortAlgorithms/QuickSortAlgorithm.cpp.o
+start: CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"

@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/SortAlgorithms/QuickSortAlgorithm.cpp
-vector
--
+/Users/soyeon/CLionProjects/start/SortAlgorithms/InsertAlgorithm.cpp
 cstdio
 -
 iostream
