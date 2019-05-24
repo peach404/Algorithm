@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/SortAlgorithms/InsertAlgorithm.cpp
+/Users/soyeon/CLionProjects/start/Interview/fibo.cpp
 cstdio
 -
 iostream

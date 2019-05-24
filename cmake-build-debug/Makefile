@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-SortAlgorithms/InsertAlgorithm.o: SortAlgorithms/InsertAlgorithm.cpp.o
+Interview/fibo.o: Interview/fibo.cpp.o
 
-.PHONY : SortAlgorithms/InsertAlgorithm.o
+.PHONY : Interview/fibo.o
 
 # target to build an object file
-SortAlgorithms/InsertAlgorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.o
-.PHONY : SortAlgorithms/InsertAlgorithm.cpp.o
+Interview/fibo.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.o
+.PHONY : Interview/fibo.cpp.o
 
-SortAlgorithms/InsertAlgorithm.i: SortAlgorithms/InsertAlgorithm.cpp.i
+Interview/fibo.i: Interview/fibo.cpp.i
 
-.PHONY : SortAlgorithms/InsertAlgorithm.i
+.PHONY : Interview/fibo.i
 
 # target to preprocess a source file
-SortAlgorithms/InsertAlgorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.i
-.PHONY : SortAlgorithms/InsertAlgorithm.cpp.i
+Interview/fibo.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.i
+.PHONY : Interview/fibo.cpp.i
 
-SortAlgorithms/InsertAlgorithm.s: SortAlgorithms/InsertAlgorithm.cpp.s
+Interview/fibo.s: Interview/fibo.cpp.s
 
-.PHONY : SortAlgorithms/InsertAlgorithm.s
+.PHONY : Interview/fibo.s
 
 # target to generate assembly for a file
-SortAlgorithms/InsertAlgorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/SortAlgorithms/InsertAlgorithm.cpp.s
-.PHONY : SortAlgorithms/InsertAlgorithm.cpp.s
+Interview/fibo.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.s
+.PHONY : Interview/fibo.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... SortAlgorithms/InsertAlgorithm.o"
-	@echo "... SortAlgorithms/InsertAlgorithm.i"
-	@echo "... SortAlgorithms/InsertAlgorithm.s"
+	@echo "... Interview/fibo.o"
+	@echo "... Interview/fibo.i"
+	@echo "... Interview/fibo.s"
 .PHONY : help
 
 
