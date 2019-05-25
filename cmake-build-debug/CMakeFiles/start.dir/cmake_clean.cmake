@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/start.dir/Interview/fibo.cpp.o"
+  "CMakeFiles/start.dir/Interview/board.cpp.o"
   "start.pdb"
   "start"
 )

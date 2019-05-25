@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-Interview/fibo.o: Interview/fibo.cpp.o
+Interview/board.o: Interview/board.cpp.o
 
-.PHONY : Interview/fibo.o
+.PHONY : Interview/board.o
 
 # target to build an object file
-Interview/fibo.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.o
-.PHONY : Interview/fibo.cpp.o
+Interview/board.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.o
+.PHONY : Interview/board.cpp.o
 
-Interview/fibo.i: Interview/fibo.cpp.i
+Interview/board.i: Interview/board.cpp.i
 
-.PHONY : Interview/fibo.i
+.PHONY : Interview/board.i
 
 # target to preprocess a source file
-Interview/fibo.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.i
-.PHONY : Interview/fibo.cpp.i
+Interview/board.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.i
+.PHONY : Interview/board.cpp.i
 
-Interview/fibo.s: Interview/fibo.cpp.s
+Interview/board.s: Interview/board.cpp.s
 
-.PHONY : Interview/fibo.s
+.PHONY : Interview/board.s
 
 # target to generate assembly for a file
-Interview/fibo.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/fibo.cpp.s
-.PHONY : Interview/fibo.cpp.s
+Interview/board.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.s
+.PHONY : Interview/board.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... Interview/fibo.o"
-	@echo "... Interview/fibo.i"
-	@echo "... Interview/fibo.s"
+	@echo "... Interview/board.o"
+	@echo "... Interview/board.i"
+	@echo "... Interview/board.s"
 .PHONY : help
 
 
