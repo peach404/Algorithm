@@ -12,17 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86171c85-d630-4fb7-813b-4752777152d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview/alpabet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/board.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview/rotation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/reshare.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/share.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview/wall.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interview/board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/check.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/check.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/start" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/start" afterDir="false" />
@@ -40,7 +39,7 @@
     <session id="-1788132374">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="92" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.10" value="3" />
@@ -50,26 +49,26 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="12" />
-          <entry key="project.open.time.6" value="23" />
+          <entry key="project.open.time.6" value="26" />
           <entry key="project.open.time.7" value="17" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="170178" />
+          <entry key="cpp" value="173502" />
           <entry key="gitignore" value="8" />
-          <entry key="mm" value="1349" />
-          <entry key="txt" value="461" />
+          <entry key="mm" value="1390" />
+          <entry key="txt" value="473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="418" />
+          <entry key="CMakeLists.txt" value="430" />
           <entry key="Doxygen file" value="103" />
-          <entry key="ObjectiveC" value="171424" />
+          <entry key="ObjectiveC" value="174789" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -79,7 +78,7 @@
           <entry key="__functional_base" value="1" />
           <entry key="__split_buffer" value="2" />
           <entry key="algorithm" value="6" />
-          <entry key="cpp" value="183" />
+          <entry key="cpp" value="194" />
           <entry key="deque" value="6" />
           <entry key="gitignore" value="1" />
           <entry key="h" value="4" />
@@ -98,7 +97,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="19" />
-          <entry key="ObjectiveC" value="224" />
+          <entry key="ObjectiveC" value="235" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -108,12 +107,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interview/fibo.cpp">
+        <entry file="file://$PROJECT_DIR$/Interview/share.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="661">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#40#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/reshare.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+              <folding>
+                <element signature="e#39#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interview/rotation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="52">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -131,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Interview/board.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/reverse.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="396">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#40#57#0" expanded="true" />
               </folding>
@@ -144,12 +155,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interview/alpabet.cpp">
+        <entry file="file://$PROJECT_DIR$/Interview/board.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="538">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="e#40#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SortAlgorithms/requick.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interview/alpabet.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-407">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Interview/wall.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#40#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,19 +206,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/11656.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#40#57#0" expanded="true" />
-              </folding>
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -212,6 +247,10 @@
       <find>ans</find>
       <find>printf</find>
       <find>res</find>
+      <find>A</find>
+      <find>4 0</find>
+      <find>9</find>
+      <find>15</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,9 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/15685.cpp" />
-        <option value="$PROJECT_DIR$/baekjoon/14500.cpp" />
-        <option value="$PROJECT_DIR$/baekjoon/14891.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/15683.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/15684re.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/15684.cpp" />
@@ -260,7 +296,6 @@
         <option value="$PROJECT_DIR$/baekjoon/11656.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/2668.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/ka.cpp" />
-        <option value="$PROJECT_DIR$/baekjoon/check.cpp" />
         <option value="$PROJECT_DIR$/SortAlgorithms/requick.cpp" />
         <option value="$PROJECT_DIR$/SortAlgorithms/InsertAlgorithm.cpp" />
         <option value="$PROJECT_DIR$/SortAlgorithms/QuickSortAlgorithm.cpp" />
@@ -269,8 +304,12 @@
         <option value="$PROJECT_DIR$/Interview/fibo.cpp" />
         <option value="$PROJECT_DIR$/Interview/rotation.cpp" />
         <option value="$PROJECT_DIR$/Interview/alpabet.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/baekjoon/check.cpp" />
+        <option value="$PROJECT_DIR$/Interview/share.cpp" />
+        <option value="$PROJECT_DIR$/Interview/reshare.cpp" />
         <option value="$PROJECT_DIR$/Interview/board.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Interview/wall.cpp" />
       </list>
     </option>
   </component>
@@ -280,8 +319,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="738" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -457,12 +496,15 @@
       <workItem from="1557540895361" duration="434000" />
       <workItem from="1557720933856" duration="1696000" />
       <workItem from="1558273888390" duration="14554000" />
-      <workItem from="1558687907975" duration="10969000" />
+      <workItem from="1558687907975" duration="11407000" />
+      <workItem from="1558942165182" duration="4199000" />
+      <workItem from="1559039530178" duration="927000" />
+      <workItem from="1559200221260" duration="12064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="855314000" />
+    <option name="totallyTimeSpent" value="872942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,16 +516,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="714" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115879826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.64457834" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42409638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08915663" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12650603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -498,28 +540,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36024097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42409638" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.17951807" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24578314" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32891566" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.2060241" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -983,43 +1003,34 @@
           <line>18</line>
           <option name="timeStamp" value="772" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Interview/share.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Interview/reshare.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Interview/wall.cpp</url>
+          <line>122</line>
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="num" language="ObjectiveC" />
-        <watch expression="arr" language="ObjectiveC" />
-        <watch expression="box" language="ObjectiveC" />
-        <watch expression="visited" language="ObjectiveC" />
-        <watch expression="flag" language="ObjectiveC" />
-        <watch expression="check" language="ObjectiveC" />
+        <watch expression="tmp" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>check</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>flag</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>visited</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>box</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr</expression-string>
+        <expression-string>tmp</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1029,52 +1040,43 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v</expression-string>
+        <expression-string>visited</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str</expression-string>
+        <expression-string>ndata</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>set1</expression-string>
+        <expression-string>arr1</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>s</expression-string>
+        <expression-string>t</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sum</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>K</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ans</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/1325.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SWExpert/1949.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#41#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SWExpert/2382.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -1303,13 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/ka.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/10451.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1317,54 +1312,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/etc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SortAlgorithms/requick.h" />
-    <entry file="file://$PROJECT_DIR$/baekjoon/check.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortAlgorithms/QuickSortAlgorithm.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortAlgorithms/requick.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SortAlgorithms/InsertAlgorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,6 +1336,70 @@
           <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#40#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortAlgorithms/Bubblesort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/fibo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/ka.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/etc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#40#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortAlgorithms/QuickSortAlgorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1408,39 +1424,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SortAlgorithms/Bubblesort.cpp">
+    <entry file="file://$PROJECT_DIR$/SortAlgorithms/requick.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="622">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/share.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#40#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/reverse.cpp">
+    <entry file="file://$PROJECT_DIR$/Interview/reshare.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="972">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interview/fibo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
+            <element signature="e#39#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interview/rotation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="52">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
@@ -1448,24 +1464,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer">
+    <entry file="file://$PROJECT_DIR$/Interview/reverse.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="396">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interview/alpabet.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="-407">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -1474,8 +1486,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interview/board.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interview/wall.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="e#40#57#0" expanded="true" />
           </folding>

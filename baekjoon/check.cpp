@@ -14,34 +14,28 @@ int check[100];
 
 int main() {
 
-    int n=0;
-    int m=0;
-    scanf("%d %d",&n,&m);
-    int tmp=0;
-    int cnt=0;
-    for(int i=1;i<=n;i++){
-        int num =i;
-
-      //  if(num>9) {
-            while (num != 0) {
-                tmp=num % 10;
+    int n = 0;
+    int m = 0;
+    scanf("%d %d", &n, &m);
+    int tmp = 0;
+    int cnt = 0;
+    for (int i = 1; i <= n; i++) {
+        int num = i;
 
 
-                if (tmp == m) {
-                    //printf("%d\n",i);
-                    cnt++;
-                }
-                num/=10;
+        while (num != 0) {
+            tmp = num % 10;
+
+
+            if (tmp == m) {
+                //printf("%d\n",i);
+                cnt++;
             }
-       // }
-       // else{
-        //    if(i==m){
-         //       cnt++;
-          //  }
+            num /= 10;
+        }
 
-        //}
 
     }
-    printf("%d\n",cnt);
+    printf("%d\n", cnt);
     return 0;
 }

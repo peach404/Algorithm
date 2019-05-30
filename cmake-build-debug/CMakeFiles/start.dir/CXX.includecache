@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/Interview/board.cpp
+/Users/soyeon/CLionProjects/start/Interview/wall.cpp
 cstdio
 -
 iostream

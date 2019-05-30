@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-Interview/board.o: Interview/board.cpp.o
+Interview/wall.o: Interview/wall.cpp.o
 
-.PHONY : Interview/board.o
+.PHONY : Interview/wall.o
 
 # target to build an object file
-Interview/board.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.o
-.PHONY : Interview/board.cpp.o
+Interview/wall.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.o
+.PHONY : Interview/wall.cpp.o
 
-Interview/board.i: Interview/board.cpp.i
+Interview/wall.i: Interview/wall.cpp.i
 
-.PHONY : Interview/board.i
+.PHONY : Interview/wall.i
 
 # target to preprocess a source file
-Interview/board.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.i
-.PHONY : Interview/board.cpp.i
+Interview/wall.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.i
+.PHONY : Interview/wall.cpp.i
 
-Interview/board.s: Interview/board.cpp.s
+Interview/wall.s: Interview/wall.cpp.s
 
-.PHONY : Interview/board.s
+.PHONY : Interview/wall.s
 
 # target to generate assembly for a file
-Interview/board.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/board.cpp.s
-.PHONY : Interview/board.cpp.s
+Interview/wall.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.s
+.PHONY : Interview/wall.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... Interview/board.o"
-	@echo "... Interview/board.i"
-	@echo "... Interview/board.s"
+	@echo "... Interview/wall.o"
+	@echo "... Interview/wall.i"
+	@echo "... Interview/wall.s"
 .PHONY : help
 
 
