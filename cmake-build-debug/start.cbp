@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/soyeon/CLionProjects/start/Interview/wall.cpp">
+		<Unit filename="/Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp">
 			<Option target="start"/>
 		</Unit>
 		<Unit filename="/Users/soyeon/CLionProjects/start/CMakeLists.txt">

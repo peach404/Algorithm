@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-Interview/wall.o: Interview/wall.cpp.o
+etcAlgorithms/Euclidean.o: etcAlgorithms/Euclidean.cpp.o
 
-.PHONY : Interview/wall.o
+.PHONY : etcAlgorithms/Euclidean.o
 
 # target to build an object file
-Interview/wall.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.o
-.PHONY : Interview/wall.cpp.o
+etcAlgorithms/Euclidean.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o
+.PHONY : etcAlgorithms/Euclidean.cpp.o
 
-Interview/wall.i: Interview/wall.cpp.i
+etcAlgorithms/Euclidean.i: etcAlgorithms/Euclidean.cpp.i
 
-.PHONY : Interview/wall.i
+.PHONY : etcAlgorithms/Euclidean.i
 
 # target to preprocess a source file
-Interview/wall.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.i
-.PHONY : Interview/wall.cpp.i
+etcAlgorithms/Euclidean.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.i
+.PHONY : etcAlgorithms/Euclidean.cpp.i
 
-Interview/wall.s: Interview/wall.cpp.s
+etcAlgorithms/Euclidean.s: etcAlgorithms/Euclidean.cpp.s
 
-.PHONY : Interview/wall.s
+.PHONY : etcAlgorithms/Euclidean.s
 
 # target to generate assembly for a file
-Interview/wall.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/Interview/wall.cpp.s
-.PHONY : Interview/wall.cpp.s
+etcAlgorithms/Euclidean.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.s
+.PHONY : etcAlgorithms/Euclidean.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... Interview/wall.o"
-	@echo "... Interview/wall.i"
-	@echo "... Interview/wall.s"
+	@echo "... etcAlgorithms/Euclidean.o"
+	@echo "... etcAlgorithms/Euclidean.i"
+	@echo "... etcAlgorithms/Euclidean.s"
 .PHONY : help
 
 

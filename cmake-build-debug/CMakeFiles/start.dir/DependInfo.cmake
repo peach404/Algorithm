@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/soyeon/CLionProjects/start/Interview/wall.cpp" "/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles/start.dir/Interview/wall.cpp.o"
+  "/Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp" "/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

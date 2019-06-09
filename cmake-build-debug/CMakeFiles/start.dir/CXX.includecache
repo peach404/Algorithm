@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/Interview/wall.cpp
-cstdio
--
+/Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp
 iostream
 -
-queue
+cstdio
+-
+algorithm
 -
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/start.dir/Interview/wall.cpp.o"
+  "CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o"
   "start.pdb"
   "start"
 )
