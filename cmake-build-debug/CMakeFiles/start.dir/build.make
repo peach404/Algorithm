@@ -57,27 +57,27 @@ include CMakeFiles/start.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/start.dir/flags.make
 
-CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o: ../etcAlgorithms/Euclidean.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o -c /Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp
+CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o: ../etcAlgorithms/codeup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o -c /Users/soyeon/CLionProjects/start/etcAlgorithms/codeup.cpp
 
-CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp > CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.i
+CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/etcAlgorithms/codeup.cpp > CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.i
 
-CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/etcAlgorithms/Euclidean.cpp -o CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.s
+CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/etcAlgorithms/codeup.cpp -o CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o"
+"CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
-start: CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o
+start: CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"

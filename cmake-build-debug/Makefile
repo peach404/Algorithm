@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-etcAlgorithms/Euclidean.o: etcAlgorithms/Euclidean.cpp.o
+etcAlgorithms/codeup.o: etcAlgorithms/codeup.cpp.o
 
-.PHONY : etcAlgorithms/Euclidean.o
+.PHONY : etcAlgorithms/codeup.o
 
 # target to build an object file
-etcAlgorithms/Euclidean.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.o
-.PHONY : etcAlgorithms/Euclidean.cpp.o
+etcAlgorithms/codeup.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o
+.PHONY : etcAlgorithms/codeup.cpp.o
 
-etcAlgorithms/Euclidean.i: etcAlgorithms/Euclidean.cpp.i
+etcAlgorithms/codeup.i: etcAlgorithms/codeup.cpp.i
 
-.PHONY : etcAlgorithms/Euclidean.i
+.PHONY : etcAlgorithms/codeup.i
 
 # target to preprocess a source file
-etcAlgorithms/Euclidean.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.i
-.PHONY : etcAlgorithms/Euclidean.cpp.i
+etcAlgorithms/codeup.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.i
+.PHONY : etcAlgorithms/codeup.cpp.i
 
-etcAlgorithms/Euclidean.s: etcAlgorithms/Euclidean.cpp.s
+etcAlgorithms/codeup.s: etcAlgorithms/codeup.cpp.s
 
-.PHONY : etcAlgorithms/Euclidean.s
+.PHONY : etcAlgorithms/codeup.s
 
 # target to generate assembly for a file
-etcAlgorithms/Euclidean.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/Euclidean.cpp.s
-.PHONY : etcAlgorithms/Euclidean.cpp.s
+etcAlgorithms/codeup.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.s
+.PHONY : etcAlgorithms/codeup.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... etcAlgorithms/Euclidean.o"
-	@echo "... etcAlgorithms/Euclidean.i"
-	@echo "... etcAlgorithms/Euclidean.s"
+	@echo "... etcAlgorithms/codeup.o"
+	@echo "... etcAlgorithms/codeup.i"
+	@echo "... etcAlgorithms/codeup.s"
 .PHONY : help
 
 
