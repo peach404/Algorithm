@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/1931.cpp
-cstdio
--
+/Users/soyeon/CLionProjects/start/baekjoon/10610.cpp
 iostream
+-
+cstdio
 -
 algorithm
 -
