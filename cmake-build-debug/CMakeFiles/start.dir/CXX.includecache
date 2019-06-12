@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/etcAlgorithms/codeup.cpp
-iostream
--
+/Users/soyeon/CLionProjects/start/baekjoon/1931.cpp
 cstdio
+-
+iostream
 -
 algorithm
 -
-queue
+vector
 -
 

@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-etcAlgorithms/codeup.o: etcAlgorithms/codeup.cpp.o
+baekjoon/1931.o: baekjoon/1931.cpp.o
 
-.PHONY : etcAlgorithms/codeup.o
+.PHONY : baekjoon/1931.o
 
 # target to build an object file
-etcAlgorithms/codeup.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.o
-.PHONY : etcAlgorithms/codeup.cpp.o
+baekjoon/1931.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1931.cpp.o
+.PHONY : baekjoon/1931.cpp.o
 
-etcAlgorithms/codeup.i: etcAlgorithms/codeup.cpp.i
+baekjoon/1931.i: baekjoon/1931.cpp.i
 
-.PHONY : etcAlgorithms/codeup.i
+.PHONY : baekjoon/1931.i
 
 # target to preprocess a source file
-etcAlgorithms/codeup.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.i
-.PHONY : etcAlgorithms/codeup.cpp.i
+baekjoon/1931.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1931.cpp.i
+.PHONY : baekjoon/1931.cpp.i
 
-etcAlgorithms/codeup.s: etcAlgorithms/codeup.cpp.s
+baekjoon/1931.s: baekjoon/1931.cpp.s
 
-.PHONY : etcAlgorithms/codeup.s
+.PHONY : baekjoon/1931.s
 
 # target to generate assembly for a file
-etcAlgorithms/codeup.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/etcAlgorithms/codeup.cpp.s
-.PHONY : etcAlgorithms/codeup.cpp.s
+baekjoon/1931.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1931.cpp.s
+.PHONY : baekjoon/1931.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... etcAlgorithms/codeup.o"
-	@echo "... etcAlgorithms/codeup.i"
-	@echo "... etcAlgorithms/codeup.s"
+	@echo "... baekjoon/1931.o"
+	@echo "... baekjoon/1931.i"
+	@echo "... baekjoon/1931.s"
 .PHONY : help
 
 
