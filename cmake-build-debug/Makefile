@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-baekjoon/2875.o: baekjoon/2875.cpp.o
+DataStructure/Stack.o: DataStructure/Stack.cpp.o
 
-.PHONY : baekjoon/2875.o
+.PHONY : DataStructure/Stack.o
 
 # target to build an object file
-baekjoon/2875.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2875.cpp.o
-.PHONY : baekjoon/2875.cpp.o
+DataStructure/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.o
+.PHONY : DataStructure/Stack.cpp.o
 
-baekjoon/2875.i: baekjoon/2875.cpp.i
+DataStructure/Stack.i: DataStructure/Stack.cpp.i
 
-.PHONY : baekjoon/2875.i
+.PHONY : DataStructure/Stack.i
 
 # target to preprocess a source file
-baekjoon/2875.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2875.cpp.i
-.PHONY : baekjoon/2875.cpp.i
+DataStructure/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.i
+.PHONY : DataStructure/Stack.cpp.i
 
-baekjoon/2875.s: baekjoon/2875.cpp.s
+DataStructure/Stack.s: DataStructure/Stack.cpp.s
 
-.PHONY : baekjoon/2875.s
+.PHONY : DataStructure/Stack.s
 
 # target to generate assembly for a file
-baekjoon/2875.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/2875.cpp.s
-.PHONY : baekjoon/2875.cpp.s
+DataStructure/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.s
+.PHONY : DataStructure/Stack.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... baekjoon/2875.o"
-	@echo "... baekjoon/2875.i"
-	@echo "... baekjoon/2875.s"
+	@echo "... DataStructure/Stack.o"
+	@echo "... DataStructure/Stack.i"
+	@echo "... DataStructure/Stack.s"
 .PHONY : help
 
 
