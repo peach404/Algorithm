@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86171c85-d630-4fb7-813b-4752777152d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/Stack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/start.dir/DependInfo.cmake" afterDir="false" />
@@ -54,17 +54,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="3" />
-          <entry key="cpp" value="184037" />
+          <entry key="cpp" value="185788" />
           <entry key="gitignore" value="8" />
-          <entry key="mm" value="1469" />
-          <entry key="txt" value="553" />
+          <entry key="mm" value="1473" />
+          <entry key="txt" value="556" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="507" />
+          <entry key="CMakeLists.txt" value="510" />
           <entry key="Doxygen file" value="103" />
-          <entry key="ObjectiveC" value="185406" />
+          <entry key="ObjectiveC" value="187161" />
           <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
@@ -74,7 +74,7 @@
           <entry key="__functional_base" value="1" />
           <entry key="__split_buffer" value="2" />
           <entry key="algorithm" value="6" />
-          <entry key="cpp" value="222" />
+          <entry key="cpp" value="223" />
           <entry key="deque" value="6" />
           <entry key="gitignore" value="1" />
           <entry key="h" value="5" />
@@ -93,7 +93,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="19" />
-          <entry key="ObjectiveC" value="264" />
+          <entry key="ObjectiveC" value="265" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -142,16 +142,28 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructure/Stack.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructure/Stack.cpp">
+        <entry file="file://$PROJECT_DIR$/DataStructure/LinkedList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="155">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SWExpert/5650.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/16235re.cpp" />
         <option value="$PROJECT_DIR$/SWExpert/2383.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/16235.cpp" />
@@ -240,9 +251,10 @@
         <option value="$PROJECT_DIR$/baekjoon/2217.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/10610.cpp" />
         <option value="$PROJECT_DIR$/baekjoon/2875.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DataStructure/Stack.c" />
         <option value="$PROJECT_DIR$/DataStructure/Stack.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/DataStructure/LinkedList.cpp" />
       </list>
     </option>
   </component>
@@ -437,12 +449,12 @@
       <workItem from="1559546678588" duration="4760000" />
       <workItem from="1559653124608" duration="8619000" />
       <workItem from="1560155588590" duration="9327000" />
-      <workItem from="1560317545039" duration="12827000" />
+      <workItem from="1560317545039" duration="19155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="912835000" />
+    <option name="totallyTimeSpent" value="919163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +474,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.36746988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.19879518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40361446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1053,18 +1065,21 @@
           <line>46</line>
           <option name="timeStamp" value="832" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DataStructure/LinkedList.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="837" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="mc" language="ObjectiveC" />
-        <watch expression="stack" language="ObjectiveC" />
-        <watch expression="nstack" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>node</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nstack</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -1110,21 +1125,9 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>prices</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/11055.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/1780.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1542,14 +1545,24 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/Stack.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

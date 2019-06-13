@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-DataStructure/Stack.o: DataStructure/Stack.cpp.o
+DataStructure/LinkedList.o: DataStructure/LinkedList.cpp.o
 
-.PHONY : DataStructure/Stack.o
+.PHONY : DataStructure/LinkedList.o
 
 # target to build an object file
-DataStructure/Stack.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.o
-.PHONY : DataStructure/Stack.cpp.o
+DataStructure/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/LinkedList.cpp.o
+.PHONY : DataStructure/LinkedList.cpp.o
 
-DataStructure/Stack.i: DataStructure/Stack.cpp.i
+DataStructure/LinkedList.i: DataStructure/LinkedList.cpp.i
 
-.PHONY : DataStructure/Stack.i
+.PHONY : DataStructure/LinkedList.i
 
 # target to preprocess a source file
-DataStructure/Stack.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.i
-.PHONY : DataStructure/Stack.cpp.i
+DataStructure/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/LinkedList.cpp.i
+.PHONY : DataStructure/LinkedList.cpp.i
 
-DataStructure/Stack.s: DataStructure/Stack.cpp.s
+DataStructure/LinkedList.s: DataStructure/LinkedList.cpp.s
 
-.PHONY : DataStructure/Stack.s
+.PHONY : DataStructure/LinkedList.s
 
 # target to generate assembly for a file
-DataStructure/Stack.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Stack.cpp.s
-.PHONY : DataStructure/Stack.cpp.s
+DataStructure/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/LinkedList.cpp.s
+.PHONY : DataStructure/LinkedList.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... DataStructure/Stack.o"
-	@echo "... DataStructure/Stack.i"
-	@echo "... DataStructure/Stack.s"
+	@echo "... DataStructure/LinkedList.o"
+	@echo "... DataStructure/LinkedList.i"
+	@echo "... DataStructure/LinkedList.s"
 .PHONY : help
 
 

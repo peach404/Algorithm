@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/DataStructure/Stack.cpp
+/Users/soyeon/CLionProjects/start/DataStructure/LinkedList.cpp
+stdlib.h
+-
 stdio.h
 -
 
