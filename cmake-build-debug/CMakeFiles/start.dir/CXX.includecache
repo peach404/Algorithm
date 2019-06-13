@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/10610.cpp
+/Users/soyeon/CLionProjects/start/baekjoon/2875.cpp
 iostream
 -
 cstdio
@@ -14,5 +14,7 @@ cstdio
 algorithm
 -
 vector
+-
+string.h
 -
 
