@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/start.dir/DataStructure/LinkedList.cpp.o"
+  "CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o"
   "start.pdb"
   "start"
 )
