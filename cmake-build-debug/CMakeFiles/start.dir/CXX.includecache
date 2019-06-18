@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/baekjoon/1541.cpp
+/Users/soyeon/CLionProjects/start/baekjoon/1049.cpp
+vector
+-
 cstdio
 -
-string
--
-stdlib.h
--
-queue
--
 iostream
+-
+algorithm
 -
 
