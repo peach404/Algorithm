@@ -57,27 +57,27 @@ include CMakeFiles/start.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/start.dir/flags.make
 
-CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o: ../DataStructure/Queue_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o -c /Users/soyeon/CLionProjects/start/DataStructure/Queue_list.cpp
+CMakeFiles/start.dir/baekjoon/1946.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/baekjoon/1946.cpp.o: ../baekjoon/1946.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/baekjoon/1946.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/start.dir/baekjoon/1946.cpp.o -c /Users/soyeon/CLionProjects/start/baekjoon/1946.cpp
 
-CMakeFiles/start.dir/DataStructure/Queue_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/DataStructure/Queue_list.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/DataStructure/Queue_list.cpp > CMakeFiles/start.dir/DataStructure/Queue_list.cpp.i
+CMakeFiles/start.dir/baekjoon/1946.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/baekjoon/1946.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/soyeon/CLionProjects/start/baekjoon/1946.cpp > CMakeFiles/start.dir/baekjoon/1946.cpp.i
 
-CMakeFiles/start.dir/DataStructure/Queue_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/DataStructure/Queue_list.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/DataStructure/Queue_list.cpp -o CMakeFiles/start.dir/DataStructure/Queue_list.cpp.s
+CMakeFiles/start.dir/baekjoon/1946.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/baekjoon/1946.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/soyeon/CLionProjects/start/baekjoon/1946.cpp -o CMakeFiles/start.dir/baekjoon/1946.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o"
+"CMakeFiles/start.dir/baekjoon/1946.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
-start: CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o
+start: CMakeFiles/start.dir/baekjoon/1946.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: CMakeFiles/start.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/soyeon/CLionProjects/start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"

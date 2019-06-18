@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/soyeon/CLionProjects/start/DataStructure/Queue_list.cpp
-stdio.h
+/Users/soyeon/CLionProjects/start/baekjoon/1946.cpp
+iostream
 -
-stdlib.h
+cstdio
 -
-string.h
+algorithm
+-
+vector
 -
 

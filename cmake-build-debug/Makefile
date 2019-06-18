@@ -123,32 +123,32 @@ start/fast:
 	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
-DataStructure/Queue_list.o: DataStructure/Queue_list.cpp.o
+baekjoon/1946.o: baekjoon/1946.cpp.o
 
-.PHONY : DataStructure/Queue_list.o
+.PHONY : baekjoon/1946.o
 
 # target to build an object file
-DataStructure/Queue_list.cpp.o:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Queue_list.cpp.o
-.PHONY : DataStructure/Queue_list.cpp.o
+baekjoon/1946.cpp.o:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1946.cpp.o
+.PHONY : baekjoon/1946.cpp.o
 
-DataStructure/Queue_list.i: DataStructure/Queue_list.cpp.i
+baekjoon/1946.i: baekjoon/1946.cpp.i
 
-.PHONY : DataStructure/Queue_list.i
+.PHONY : baekjoon/1946.i
 
 # target to preprocess a source file
-DataStructure/Queue_list.cpp.i:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Queue_list.cpp.i
-.PHONY : DataStructure/Queue_list.cpp.i
+baekjoon/1946.cpp.i:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1946.cpp.i
+.PHONY : baekjoon/1946.cpp.i
 
-DataStructure/Queue_list.s: DataStructure/Queue_list.cpp.s
+baekjoon/1946.s: baekjoon/1946.cpp.s
 
-.PHONY : DataStructure/Queue_list.s
+.PHONY : baekjoon/1946.s
 
 # target to generate assembly for a file
-DataStructure/Queue_list.cpp.s:
-	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/DataStructure/Queue_list.cpp.s
-.PHONY : DataStructure/Queue_list.cpp.s
+baekjoon/1946.cpp.s:
+	$(MAKE) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/baekjoon/1946.cpp.s
+.PHONY : baekjoon/1946.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... start"
-	@echo "... DataStructure/Queue_list.o"
-	@echo "... DataStructure/Queue_list.i"
-	@echo "... DataStructure/Queue_list.s"
+	@echo "... baekjoon/1946.o"
+	@echo "... baekjoon/1946.i"
+	@echo "... baekjoon/1946.s"
 .PHONY : help
 
 
